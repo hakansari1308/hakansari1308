@@ -1,0 +1,12 @@
+C:\Users\Win10\source\repos\Evet^Hayır\Evet^Hayır\bin\Debug\Evet^Hayır.exe.config
+C:\Users\Win10\source\repos\Evet^Hayır\Evet^Hayır\bin\Debug\Evet^Hayır.exe
+C:\Users\Win10\source\repos\Evet^Hayır\Evet^Hayır\bin\Debug\Evet^Hayır.pdb
+C:\Users\Win10\source\repos\Evet^Hayır\Evet^Hayır\obj\Debug\Evet^Hayır.csproj.AssemblyReference.cache
+C:\Users\Win10\source\repos\Evet^Hayır\Evet^Hayır\obj\Debug\Evet^Hayır.csproj.SuggestedBindingRedirects.cache
+C:\Users\Win10\source\repos\Evet^Hayır\Evet^Hayır\obj\Debug\Evet_Hayır.Form1.resources
+C:\Users\Win10\source\repos\Evet^Hayır\Evet^Hayır\obj\Debug\Evet_Hayır.Properties.Resources.resources
+C:\Users\Win10\source\repos\Evet^Hayır\Evet^Hayır\obj\Debug\Evet^Hayır.csproj.GenerateResource.cache
+C:\Users\Win10\source\repos\Evet^Hayır\Evet^Hayır\obj\Debug\Evet^Hayır.csproj.CoreCompileInputs.cache
+C:\Users\Win10\source\repos\Evet^Hayır\Evet^Hayır\obj\Debug\Evet^Hayır.exe
+C:\Users\Win10\source\repos\Evet^Hayır\Evet^Hayır\obj\Debug\Evet^Hayır.pdb
+C:\Users\Win10\source\repos\Evet^Hayır\Evet^Hayır\obj\Debug\Evet_Hayır.Form2.resources
