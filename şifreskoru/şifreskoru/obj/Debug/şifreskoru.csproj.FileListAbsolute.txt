@@ -1,0 +1,11 @@
+C:\Users\Win10\source\repos\şifreskoru\şifreskoru\bin\Debug\şifreskoru.exe.config
+C:\Users\Win10\source\repos\şifreskoru\şifreskoru\bin\Debug\şifreskoru.exe
+C:\Users\Win10\source\repos\şifreskoru\şifreskoru\bin\Debug\şifreskoru.pdb
+C:\Users\Win10\source\repos\şifreskoru\şifreskoru\obj\Debug\şifreskoru.csproj.AssemblyReference.cache
+C:\Users\Win10\source\repos\şifreskoru\şifreskoru\obj\Debug\şifreskoru.csproj.SuggestedBindingRedirects.cache
+C:\Users\Win10\source\repos\şifreskoru\şifreskoru\obj\Debug\şifreskoru.Form1.resources
+C:\Users\Win10\source\repos\şifreskoru\şifreskoru\obj\Debug\şifreskoru.Properties.Resources.resources
+C:\Users\Win10\source\repos\şifreskoru\şifreskoru\obj\Debug\şifreskoru.csproj.GenerateResource.cache
+C:\Users\Win10\source\repos\şifreskoru\şifreskoru\obj\Debug\şifreskoru.csproj.CoreCompileInputs.cache
+C:\Users\Win10\source\repos\şifreskoru\şifreskoru\obj\Debug\şifreskoru.exe
+C:\Users\Win10\source\repos\şifreskoru\şifreskoru\obj\Debug\şifreskoru.pdb
