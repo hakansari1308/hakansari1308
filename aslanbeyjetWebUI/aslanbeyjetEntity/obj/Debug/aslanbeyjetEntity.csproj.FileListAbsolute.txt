@@ -1,0 +1,6 @@
+C:\Users\Win10\source\repos\aslanbeyjetWebUI\aslanbeyjetEntity\bin\Debug\aslanbeyjetEntity.dll
+C:\Users\Win10\source\repos\aslanbeyjetWebUI\aslanbeyjetEntity\bin\Debug\aslanbeyjetEntity.pdb
+C:\Users\Win10\source\repos\aslanbeyjetWebUI\aslanbeyjetEntity\obj\Debug\aslanbeyjetEntity.csproj.AssemblyReference.cache
+C:\Users\Win10\source\repos\aslanbeyjetWebUI\aslanbeyjetEntity\obj\Debug\aslanbeyjetEntity.csproj.CoreCompileInputs.cache
+C:\Users\Win10\source\repos\aslanbeyjetWebUI\aslanbeyjetEntity\obj\Debug\aslanbeyjetEntity.dll
+C:\Users\Win10\source\repos\aslanbeyjetWebUI\aslanbeyjetEntity\obj\Debug\aslanbeyjetEntity.pdb

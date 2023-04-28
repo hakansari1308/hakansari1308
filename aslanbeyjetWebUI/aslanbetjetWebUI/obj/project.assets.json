@@ -1,0 +1,107 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "aslanbeyjetEntity/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/aslanbeyjetEntity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/aslanbeyjetEntity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "aslanbeyjetEntity/1.0.0": {
+      "type": "project",
+      "path": "../aslanbeyjetEntity/aslanbeyjetEntity.csproj",
+      "msbuildProject": "../aslanbeyjetEntity/aslanbeyjetEntity.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "C:\\Users\\Win10\\source\\repos\\aslanbeyjetWebUI\\aslanbeyjetBusiness\\aslanbeyjetBusiness.csproj",
+      "aslanbeyjetEntity >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Win10\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Win10\\source\\repos\\aslanbeyjetWebUI\\aslanbetjetWebUI\\aslanbetjetWebUI.csproj",
+      "projectName": "aslanbetjetWebUI",
+      "projectPath": "C:\\Users\\Win10\\source\\repos\\aslanbeyjetWebUI\\aslanbetjetWebUI\\aslanbetjetWebUI.csproj",
+      "packagesPath": "C:\\Users\\Win10\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Win10\\source\\repos\\aslanbeyjetWebUI\\aslanbetjetWebUI\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Win10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\Win10\\source\\repos\\aslanbeyjetWebUI\\aslanbeyjetBusiness\\aslanbeyjetBusiness.csproj": {
+              "projectPath": "C:\\Users\\Win10\\source\\repos\\aslanbeyjetWebUI\\aslanbeyjetBusiness\\aslanbeyjetBusiness.csproj"
+            },
+            "C:\\Users\\Win10\\source\\repos\\aslanbeyjetWebUI\\aslanbeyjetEntity\\aslanbeyjetEntity.csproj": {
+              "projectPath": "C:\\Users\\Win10\\source\\repos\\aslanbeyjetWebUI\\aslanbeyjetEntity\\aslanbeyjetEntity.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Users\\Win10\\source\\repos\\aslanbeyjetWebUI\\aslanbeyjetBusiness\\aslanbeyjetBusiness.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Users\\Win10\\source\\repos\\aslanbeyjetWebUI\\aslanbeyjetBusiness\\aslanbeyjetBusiness.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

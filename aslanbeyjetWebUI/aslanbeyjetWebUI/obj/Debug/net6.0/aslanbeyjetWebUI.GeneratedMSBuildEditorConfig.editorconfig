@@ -1,0 +1,81 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = aslanbeyjetWebUI
+build_property.RootNamespace = aslanbeyjetWebUI
+build_property.ProjectDir = C:\Users\Win10\source\repos\aslanbeyjetWebUI\aslanbeyjetWebUI\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Win10\source\repos\aslanbeyjetWebUI\aslanbeyjetWebUI
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Win10/source/repos/aslanbeyjetWebUI/aslanbeyjetWebUI/Views/Home/Iletisim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbGV0aXNpbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Win10/source/repos/aslanbeyjetWebUI/aslanbeyjetWebUI/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Win10/source/repos/aslanbeyjetWebUI/aslanbeyjetWebUI/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Win10/source/repos/aslanbeyjetWebUI/aslanbeyjetWebUI/Views/Kullanici/AdminList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VsbGFuaWNpXEFkbWluTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Win10/source/repos/aslanbeyjetWebUI/aslanbeyjetWebUI/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Win10/source/repos/aslanbeyjetWebUI/aslanbeyjetWebUI/Views/Shared/_footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9mb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Win10/source/repos/aslanbeyjetWebUI/aslanbeyjetWebUI/Views/Shared/_navbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9uYXZiYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Win10/source/repos/aslanbeyjetWebUI/aslanbeyjetWebUI/Views/Shared/_noyolculuk.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9ub3lvbGN1bHVrLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Win10/source/repos/aslanbeyjetWebUI/aslanbeyjetWebUI/Views/Shared/_slider.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9zbGlkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Win10/source/repos/aslanbeyjetWebUI/aslanbeyjetWebUI/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Win10/source/repos/aslanbeyjetWebUI/aslanbeyjetWebUI/Views/Shared/_yolculuk.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF95b2xjdWx1ay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Win10/source/repos/aslanbeyjetWebUI/aslanbeyjetWebUI/Views/Yolculuk/Basarili.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9sY3VsdWtcQmFzYXJpbGkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Win10/source/repos/aslanbeyjetWebUI/aslanbeyjetWebUI/Views/Yolculuk/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9sY3VsdWtcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Win10/source/repos/aslanbeyjetWebUI/aslanbeyjetWebUI/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Win10/source/repos/aslanbeyjetWebUI/aslanbeyjetWebUI/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Win10/source/repos/aslanbeyjetWebUI/aslanbeyjetWebUI/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ltiy4iw2ko

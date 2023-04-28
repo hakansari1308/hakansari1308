@@ -1,0 +1,17 @@
+C:\Users\Win10\source\repos\aslanbeyjetWebUI\aslanbeyhjetBusiness\obj\Debug\net6.0\aslanbeyjetBusiness.csproj.AssemblyReference.cache
+C:\Users\Win10\source\repos\aslanbeyjetWebUI\aslanbeyhjetBusiness\obj\Debug\net6.0\aslanbeyjetBusiness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Win10\source\repos\aslanbeyjetWebUI\aslanbeyhjetBusiness\obj\Debug\net6.0\aslanbeyjetBusiness.AssemblyInfoInputs.cache
+C:\Users\Win10\source\repos\aslanbeyjetWebUI\aslanbeyhjetBusiness\obj\Debug\net6.0\aslanbeyjetBusiness.AssemblyInfo.cs
+C:\Users\Win10\source\repos\aslanbeyjetWebUI\aslanbeyhjetBusiness\obj\Debug\net6.0\aslanbeyjetBusiness.csproj.CoreCompileInputs.cache
+C:\Users\Win10\source\repos\aslanbeyjetWebUI\aslanbeyhjetBusiness\bin\Debug\net6.0\aslanbeyjetBusiness.deps.json
+C:\Users\Win10\source\repos\aslanbeyjetWebUI\aslanbeyhjetBusiness\bin\Debug\net6.0\aslanbeyjetBusiness.dll
+C:\Users\Win10\source\repos\aslanbeyjetWebUI\aslanbeyhjetBusiness\bin\Debug\net6.0\aslanbeyjetBusiness.pdb
+C:\Users\Win10\source\repos\aslanbeyjetWebUI\aslanbeyhjetBusiness\bin\Debug\net6.0\aslanbeyjetData.dll
+C:\Users\Win10\source\repos\aslanbeyjetWebUI\aslanbeyhjetBusiness\bin\Debug\net6.0\aslanbeyjetEntity.dll
+C:\Users\Win10\source\repos\aslanbeyjetWebUI\aslanbeyhjetBusiness\bin\Debug\net6.0\aslanbeyjetData.pdb
+C:\Users\Win10\source\repos\aslanbeyjetWebUI\aslanbeyhjetBusiness\bin\Debug\net6.0\aslanbeyjetEntity.pdb
+C:\Users\Win10\source\repos\aslanbeyjetWebUI\aslanbeyhjetBusiness\obj\Debug\net6.0\aslanbeyjetBusiness.csproj.CopyComplete
+C:\Users\Win10\source\repos\aslanbeyjetWebUI\aslanbeyhjetBusiness\obj\Debug\net6.0\aslanbeyjetBusiness.dll
+C:\Users\Win10\source\repos\aslanbeyjetWebUI\aslanbeyhjetBusiness\obj\Debug\net6.0\refint\aslanbeyjetBusiness.dll
+C:\Users\Win10\source\repos\aslanbeyjetWebUI\aslanbeyhjetBusiness\obj\Debug\net6.0\aslanbeyjetBusiness.pdb
+C:\Users\Win10\source\repos\aslanbeyjetWebUI\aslanbeyhjetBusiness\obj\Debug\net6.0\ref\aslanbeyjetBusiness.dll

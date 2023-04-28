@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Win10\\source\\repos\\aslanbeyjetWebUI\\aslanbetjetWebUI\\aslanbetjetWebUI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Win10\\source\\repos\\aslanbeyjetWebUI\\aslanbetjetWebUI\\aslanbetjetWebUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Win10\\source\\repos\\aslanbeyjetWebUI\\aslanbetjetWebUI\\aslanbetjetWebUI.csproj",
+        "projectName": "aslanbetjetWebUI",
+        "projectPath": "C:\\Users\\Win10\\source\\repos\\aslanbeyjetWebUI\\aslanbetjetWebUI\\aslanbetjetWebUI.csproj",
+        "packagesPath": "C:\\Users\\Win10\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Win10\\source\\repos\\aslanbeyjetWebUI\\aslanbetjetWebUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Win10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Win10\\source\\repos\\aslanbeyjetWebUI\\aslanbeyjetBusiness\\aslanbeyjetBusiness.csproj": {
+                "projectPath": "C:\\Users\\Win10\\source\\repos\\aslanbeyjetWebUI\\aslanbeyjetBusiness\\aslanbeyjetBusiness.csproj"
+              },
+              "C:\\Users\\Win10\\source\\repos\\aslanbeyjetWebUI\\aslanbeyjetEntity\\aslanbeyjetEntity.csproj": {
+                "projectPath": "C:\\Users\\Win10\\source\\repos\\aslanbeyjetWebUI\\aslanbeyjetEntity\\aslanbeyjetEntity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Win10\\source\\repos\\aslanbeyjetWebUI\\aslanbeyjetEntity\\aslanbeyjetEntity.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Win10\\source\\repos\\aslanbeyjetWebUI\\aslanbeyjetEntity\\aslanbeyjetEntity.csproj",
+        "projectName": "aslanbeyjetEntity",
+        "projectPath": "C:\\Users\\Win10\\source\\repos\\aslanbeyjetWebUI\\aslanbeyjetEntity\\aslanbeyjetEntity.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}
