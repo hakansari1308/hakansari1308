@@ -1,0 +1,61 @@
+﻿html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 10px;
+    background-color: #FFD700;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: #FFD700;
+    color: white;
+}
+.navbar-nav .nav-item .nav-link {
+    color: black;
+}
+.col-lg-0 p-lg-7 text-lg-left text-center mt-lg-4 mt-0 bottom-right {
+    position: relative;
+}
+
+.slide-image {
+    opacity: 0;
+    width:70%;
+    height:70%;
+    animation: fade-in 1s ease-in forwards;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes changeColor {
+    0% {
+        background-color: white;
+    }
+
+   
+
+    100% {
+        background-color: red;
+    }
+}
+
+#dyr {
+    animation: changeColor 1s infinite;
+}

@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Randuvu Sayfası.";
+}
+<h1>@ViewData["Title"]</h1>
+<html>
+<p id="metin">1.duyuru</p>
+<p id="metin">2.duyuru</p>
+<p id="sonuc"></p>
+<script>
+window.onload = function() {
+        say();
+    };
+
+
+    function say() {
+        var metin = document.getElementById("metin").innerHTML;
+        var kelimeSayisi = metin.trim().split(/\s+/).length;
+        document.getElementById("sonuc").innerHTML = "" + kelimeSayisi;
+    }
+</script>
+view.bag.number=sonuc;
+</html>
