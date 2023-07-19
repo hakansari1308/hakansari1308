@@ -223,3 +223,7 @@ C:\Users\Win10\source\repos\GoldenDaisyWebUI\GoldenDaisyWebUI\bin\Debug\net6.0\r
 C:\Users\Win10\source\repos\GoldenDaisyWebUI\GoldenDaisyWebUI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Win10\source\repos\GoldenDaisyWebUI\GoldenDaisyWebUI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\Win10\source\repos\GoldenDaisyWebUI\GoldenDaisyWebUI\obj\Debug\net6.0\GoldenDaisyWebUI.csproj.CopyComplete
+C:\Users\Win10\source\repos\GoldenDaisyWebUI\GoldenDaisyWebUI\bin\Debug\net6.0\runtimes\linux-x64\native\libsqlite3.so
+C:\Users\Win10\source\repos\GoldenDaisyWebUI\GoldenDaisyWebUI\bin\Debug\net6.0\runtimes\osx-x64\native\libsqlite3.dylib
+C:\Users\Win10\source\repos\GoldenDaisyWebUI\GoldenDaisyWebUI\bin\Debug\net6.0\runtimes\win7-x64\native\sqlite3.dll
+C:\Users\Win10\source\repos\GoldenDaisyWebUI\GoldenDaisyWebUI\bin\Debug\net6.0\runtimes\win7-x86\native\sqlite3.dll

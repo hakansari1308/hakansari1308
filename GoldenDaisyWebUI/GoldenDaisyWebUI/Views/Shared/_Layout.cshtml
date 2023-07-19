@@ -25,7 +25,7 @@
                             <a class="nav-link " asp-area=""  asp-controller="Home" asp-action="Index">Ana Sayfa</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Randevu">Randevu</a>
+                            <a class="nav-link" asp-area="" asp-controller="Randevu" asp-action="Randevu">Randevu</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Hakkimizda">Hakkımızda</a>
@@ -34,14 +34,16 @@
                         <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Iletisim">İletişim</a>
                         </li>
-                        
+                        @{
+                            int dyr = 1;
+                        }
                         
                         
 
                         @if (dyr == 0)
                         {
                             <li class="nav-item">
-                                <a class="nav-link" id="dyr" asp-area="" asp-controller="Home" asp-route-id="123" asp-action="duyuru"> Duyuru @Number</a>
+                                <a class="nav-link" id="dyr" asp-area="" asp-controller="Home" asp-route-id="123" asp-action="duyuru"> Duyuru </a>
                             </li>
                         }
                         else
@@ -60,7 +62,7 @@
                         @if (sayi==5)
                         {
                             <li class="nav-item">
-                                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="adminlist">Randevu Listesi</a>
+                                <a class="nav-link" asp-area="" asp-controller="Randevu" asp-action="adminlist">Randevu Listesi</a>
                             </li>
                         }
                         else
@@ -73,16 +75,16 @@
                     @if (sayi == 5)
                     {
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="profil">Profil</a>
+                            <a class="nav-link" asp-area="" asp-controller="Kullanici" asp-action="profil">Profil</a>
                         </li>
                     }else
 
                     {
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="login">Giriş Yap</a>
+                            <a class="nav-link" asp-area="" asp-controller="Kullanici" asp-action="login">Giriş Yap</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="sign">Kayıt Ol</a>
+                            <a class="nav-link" asp-area="" asp-controller="Kullanici" asp-action="sign">Kayıt Ol</a>
                         </li>
                     }
                     </ul>

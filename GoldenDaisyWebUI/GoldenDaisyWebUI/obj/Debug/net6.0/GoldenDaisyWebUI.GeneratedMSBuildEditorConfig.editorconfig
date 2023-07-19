@@ -16,10 +16,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Win10\source\repos\GoldenDaisyWebUI\GoldenDaisyWebUI
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Win10/source/repos/GoldenDaisyWebUI/GoldenDaisyWebUI/Views/Home/adminlist.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxhZG1pbmxpc3QuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Win10/source/repos/GoldenDaisyWebUI/GoldenDaisyWebUI/Views/Home/duyuru.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxkdXl1cnUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -36,20 +32,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Win10/source/repos/GoldenDaisyWebUI/GoldenDaisyWebUI/Views/Home/login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxsb2dpbi5jc2h0bWw=
+[C:/Users/Win10/source/repos/GoldenDaisyWebUI/GoldenDaisyWebUI/Views/kullanici/login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Nca3VsbGFuaWNpXGxvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Win10/source/repos/GoldenDaisyWebUI/GoldenDaisyWebUI/Views/Home/Profil.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9maWwuY3NodG1s
+[C:/Users/Win10/source/repos/GoldenDaisyWebUI/GoldenDaisyWebUI/Views/kullanici/Profil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Nca3VsbGFuaWNpXFByb2ZpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Win10/source/repos/GoldenDaisyWebUI/GoldenDaisyWebUI/Views/Home/Randevu.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSYW5kZXZ1LmNzaHRtbA==
+[C:/Users/Win10/source/repos/GoldenDaisyWebUI/GoldenDaisyWebUI/Views/kullanici/sign.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Nca3VsbGFuaWNpXHNpZ24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Win10/source/repos/GoldenDaisyWebUI/GoldenDaisyWebUI/Views/Home/sign.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzaWduLmNzaHRtbA==
+[C:/Users/Win10/source/repos/GoldenDaisyWebUI/GoldenDaisyWebUI/Views/randevu/adminlist.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccmFuZGV2dVxhZG1pbmxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Win10/source/repos/GoldenDaisyWebUI/GoldenDaisyWebUI/Views/randevu/Randevu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccmFuZGV2dVxSYW5kZXZ1LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Win10/source/repos/GoldenDaisyWebUI/GoldenDaisyWebUI/Views/Shared/Error.cshtml]
