@@ -227,6 +227,18 @@
           }
         }
       },
+      "FontAwesome/4.7.0": {
+        "type": "package"
+      },
+      "FontAwesomeIcons/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/FontAwesomeIcons.dll": {}
+        }
+      },
       "Humanizer/2.14.1": {
         "type": "package",
         "dependencies": {
@@ -3659,6 +3671,75 @@
         "contentFiles/any/any/wwwroot/js/bootstrap.js.map",
         "contentFiles/any/any/wwwroot/js/bootstrap.min.js",
         "contentFiles/any/any/wwwroot/js/bootstrap.min.js.map"
+      ]
+    },
+    "FontAwesome/4.7.0": {
+      "sha512": "n4H/brfszElyoZ4kmGh8E75uqvLzLvFr3h2PFVdPH1LwUmWIpeqdaW2pcC4oZAhg7sESyObh0IZpAI8COCNeUg==",
+      "type": "package",
+      "path": "fontawesome/4.7.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Content/font-awesome.css",
+        "Content/Content/font-awesome.min.css",
+        "Content/fonts/FontAwesome.otf",
+        "Content/fonts/fontawesome-webfont.eot",
+        "Content/fonts/fontawesome-webfont.svg",
+        "Content/fonts/fontawesome-webfont.ttf",
+        "Content/fonts/fontawesome-webfont.woff",
+        "Content/fonts/fontawesome-webfont.woff2",
+        "fontawesome.4.7.0.nupkg.sha512",
+        "fontawesome.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "FontAwesomeIcons/1.0.3": {
+      "sha512": "cC5+lp/c9FU2JehuoFTS3Jr2FvQIwtZDC33J49YSxhoQi1ZyvBFpMSaDVYate06vTSzj+boxNNlE0b2scWyI2Q==",
+      "type": "package",
+      "path": "fontawesomeicons/1.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Content/CSS/font-awesome.css",
+        "Content/Content/CSS/font-awesome.min.css",
+        "Content/Content/Fonts/FontAwesome.otf",
+        "Content/Content/Fonts/fontawesome-webfont.eot",
+        "Content/Content/Fonts/fontawesome-webfont.svg",
+        "Content/Content/Fonts/fontawesome-webfont.ttf",
+        "Content/Content/Fonts/fontawesome-webfont.woff",
+        "Content/Content/Fonts/fontawesome-webfont.woff2",
+        "Content/Content/Less/FontAwesome/animated.less",
+        "Content/Content/Less/FontAwesome/bordered-pulled.less",
+        "Content/Content/Less/FontAwesome/core.less",
+        "Content/Content/Less/FontAwesome/fixed-width.less",
+        "Content/Content/Less/FontAwesome/font-awesome.less",
+        "Content/Content/Less/FontAwesome/icons.less",
+        "Content/Content/Less/FontAwesome/larger.less",
+        "Content/Content/Less/FontAwesome/list.less",
+        "Content/Content/Less/FontAwesome/mixins.less",
+        "Content/Content/Less/FontAwesome/path.less",
+        "Content/Content/Less/FontAwesome/rotated-flipped.less",
+        "Content/Content/Less/FontAwesome/stacked.less",
+        "Content/Content/Less/FontAwesome/variables.less",
+        "Content/Content/Scss/FontAwesome/_animated.scss",
+        "Content/Content/Scss/FontAwesome/_bordered-pulled.scss",
+        "Content/Content/Scss/FontAwesome/_core.scss",
+        "Content/Content/Scss/FontAwesome/_fixed-width.scss",
+        "Content/Content/Scss/FontAwesome/_icons.scss",
+        "Content/Content/Scss/FontAwesome/_larger.scss",
+        "Content/Content/Scss/FontAwesome/_list.scss",
+        "Content/Content/Scss/FontAwesome/_mixins.scss",
+        "Content/Content/Scss/FontAwesome/_path.scss",
+        "Content/Content/Scss/FontAwesome/_rotated-flipped.scss",
+        "Content/Content/Scss/FontAwesome/_stacked.scss",
+        "Content/Content/Scss/FontAwesome/_variables.scss",
+        "Content/Content/Scss/FontAwesome/font-awesome.scss",
+        "fontawesomeicons.1.0.3.nupkg.sha512",
+        "fontawesomeicons.nuspec",
+        "lib/FontAwesomeIcons.XML",
+        "lib/FontAwesomeIcons.dll",
+        "lib/FontAwesomeIcons.pdb"
       ]
     },
     "Humanizer/2.14.1": {
@@ -9973,6 +10054,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "FontAwesome >= 4.7.0",
+      "FontAwesomeIcons >= 1.0.3",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.15",
       "SQLite >= 3.13.0",
       "bootstrap >= 5.3.0"
@@ -10019,6 +10102,16 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "FontAwesome": {
+            "target": "Package",
+            "version": "[4.7.0, )"
+          },
+          "FontAwesomeIcons": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[1.0.3, )"
+          },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[6.0.15, )"
@@ -10054,5 +10147,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'FontAwesomeIcons 1.0.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "FontAwesomeIcons",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

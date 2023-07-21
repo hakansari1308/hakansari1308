@@ -24,10 +24,10 @@ a[b-ijk7jz381c] {
 }
 
 .border-top[b-ijk7jz381c] {
-  border-top: 1px solid #000000;
+    border-top: 1px solid #FFD700;
 }
 .border-bottom[b-ijk7jz381c] {
-  border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #FFD700;
 }
 
 .box-shadow[b-ijk7jz381c] {
@@ -46,11 +46,47 @@ button.accept-policy[b-ijk7jz381c] {
     display: block;
     position: absolute;
     bottom: 0;
-    height:100px;
+    height: 100px;
     width: 100%;
     white-space: nowrap;
-    background-color: white;
+    background-color: gold;
     line-height: 60px;
 }
 
+.navbar-nav li:hover[b-ijk7jz381c] {
+    background-color: #f00;
+}
 
+    .navbar-nav li:hover a[b-ijk7jz381c] {
+        color: #fff;
+    }
+.menu-container[b-ijk7jz381c] {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.menu[b-ijk7jz381c] {
+    display:flex;
+}
+
+    .menu a[b-ijk7jz381c] {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        margin-right: 15px;
+    }
+
+        .menu a:last-child[b-ijk7jz381c] {
+            margin-right: 0;
+        }
+
+        .menu a:hover[b-ijk7jz381c] {
+            color: #ffcc00;
+        }
+
+.social-agile-icon[b-ijk7jz381c] {
+    display: flex;
+    justify-content: center;
+    display:flex;
+}

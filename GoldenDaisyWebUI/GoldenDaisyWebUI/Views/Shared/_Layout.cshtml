@@ -8,12 +8,26 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/GoldenDaisyWebUI.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="css/font-awesome.css" asp-append-version="true"/>  <!-- font-awesome icons -->
+   
+        <!-- //Custom Theme files -->
+        <!-- js -->
+        <script src="js/jquery-2.2.3.min.js"></script>
+        <!-- //js -->
+        <!-- web-fonts -->
+        <!-- //web-fonts -->
+    <style>
+        /* Altın sarısı (gold) rengini tanımlayın */
+        .bg-gold {
+            background-color: gold !important;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-gold border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/img/logo.png" width="50" height="50" alt="Ana Sayfa" /></a>
+                <a class="navbar-dark" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/img/logo.png" width="50" height="50" alt="Ana Sayfa" /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -71,20 +85,19 @@
                         }
                         
                     </ul>
-                    <ul class ="navbar-nav flex-grow-2">
+                    <ul class="menu-container">
                     @if (sayi == 5)
                     {
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Kullanici" asp-action="profil">Profil</a>
+                        <li class="menu">
+                            <a class="nav-bar" asp-area="" asp-controller="Kullanici" asp-action="profil">Profil</a>
                         </li>
                     }else
 
                     {
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Kullanici" asp-action="login">Giriş Yap</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Kullanici" asp-action="sign">Kayıt Ol</a>
+                        <li class="menu">
+                            <a class="nav-bar" asp-area="" asp-controller="Kullanici" asp-action="login">Giriş Yap</a>
+                        <p>/</p>
+                            <a class="nav-bar" asp-area="" asp-controller="Kullanici" asp-action="sign">Kayıt Ol</a>
                         </li>
                     }
                     </ul>
@@ -97,18 +110,84 @@
             @RenderBody()
         </main>
     </div>
+    <!-- subscribe -->
+    <div class="sub-agileitsinfo jarallax">
+        <div class="subscribe wthree-sub">
+            <div class="container">
+                <div class="container-fluid">
+                    <img class="center-img" src="~/img/logo.png" width="60" height="60" /><br />
+                    &copy; 2023 - GoldenDaisyBeuty -<br /> 
+                    <a asp-area="" asp-controller="Home" asp-action="Hakkimizda">Privacy</a>
+                    <a asp-area="" asp-controller="Home" asp-action="Randevu">Randevu</a>
+                    <br />
+                    <p>Adres</p>
+                </div>
 
-    <footer class="border-left footer text-muted">
-        <div class="container-fluid">
-            &copy; 2023 - GoldenDaisyBeuty - <a asp-area="" asp-controller="Home" asp-action="Hakkimizda">Privacy</a>      
-            <a asp-area="" asp-controller="Home" asp-action="Randevu">Randevu</a>
-            <br />
-            <p>Adres</p>
+                <!-- //web-fonts -->
+                <div class="social-agile-icon">
+                    <link rel="stylesheet" href="../wwwroot/css/font-awesome.css">
+                    <a href="#" class=" social-button twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="social-button facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="social-button google"><i class="fa fa-google-plus"></i></a>
+                    <a href="#" class="social-button dribbble"><i class="fa fa-dribbble"></i></a>
+                    <a href="#" class="social-button skype"><i class="fa fa-skype"></i></a>
+                </div>
+                </div>
         </div>
-    </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+    </div>
+    <!-- //subscribe -->
+    <!-- footer -->
+    
+    <!-- //footer -->
+    <!-- jarallax -->
+    <script src="js/SmoothScroll.min.js"></script>
+    <script src="js/jarallax.js"></script>
+    <script type="text/javascript">
+        /* init Jarallax */
+        $('.jarallax').jarallax({
+            speed: 0.5,
+            imgWidth: 1366,
+            imgHeight: 768
+        })
+    </script>
+    <!-- //jarallax -->
+    <!-- menu-js -->
+    <script src="js/modernizr.js"></script> <!-- Modernizr -->
+    <script src="js/menu.js"></script> <!-- Resource jQuery -->
+    <!-- //menu-js -->
+    <!-- start-smooth-scrolling -->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+
+                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+            });
+        });
+    </script>
+    <!-- //end-smooth-scrolling -->
+    <!-- smooth-scrolling-of-move-up -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            /*
+            var defaults = {
+                containerID: 'toTop', // fading element id
+                containerHoverID: 'toTopHover', // fading element hover id
+                scrollSpeed: 1200,
+                easingType: 'linear'
+            };
+            */
+
+            $().UItoTop({ easingType: 'easeOutQuart' });
+
+        });
+    </script>
+    <!-- //smooth-scrolling-of-move-up -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
 </body>
 </html>

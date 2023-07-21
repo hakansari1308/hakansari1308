@@ -97,38 +97,6 @@
       "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Win10\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap.css"
-    },
-    {
-      "Id": "C:\\Users\\Win10\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Win10\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
-    },
-    {
-      "Id": "C:\\Users\\Win10\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Win10\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css"
-    },
-    {
-      "Id": "C:\\Users\\Win10\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Win10\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css"
-    },
-    {
-      "Id": "C:\\Users\\Win10\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css.map"
-    },
-    {
       "Id": "C:\\Users\\Win10\\.nuget\\packages\\bootstrap\\5.3.0\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
     },
@@ -181,6 +149,18 @@
       "PackagePath": "staticwebassets\\GoldenDaisyWebUI.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Win10\\source\\repos\\GoldenDaisyWebUI\\GoldenDaisyWebUI\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Win10\\source\\repos\\GoldenDaisyWebUI\\GoldenDaisyWebUI\\wwwroot\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\Win10\\source\\repos\\GoldenDaisyWebUI\\GoldenDaisyWebUI\\wwwroot\\css\\lightbox.css",
+      "PackagePath": "staticwebassets\\css\\lightbox.css"
+    },
+    {
       "Id": "C:\\Users\\Win10\\source\\repos\\GoldenDaisyWebUI\\GoldenDaisyWebUI\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -189,8 +169,52 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Win10\\source\\repos\\GoldenDaisyWebUI\\GoldenDaisyWebUI\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\Win10\\source\\repos\\GoldenDaisyWebUI\\GoldenDaisyWebUI\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Win10\\source\\repos\\GoldenDaisyWebUI\\GoldenDaisyWebUI\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Win10\\source\\repos\\GoldenDaisyWebUI\\GoldenDaisyWebUI\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Win10\\source\\repos\\GoldenDaisyWebUI\\GoldenDaisyWebUI\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Win10\\source\\repos\\GoldenDaisyWebUI\\GoldenDaisyWebUI\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Win10\\source\\repos\\GoldenDaisyWebUI\\GoldenDaisyWebUI\\wwwroot\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\Win10\\source\\repos\\GoldenDaisyWebUI\\GoldenDaisyWebUI\\wwwroot\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Win10\\source\\repos\\GoldenDaisyWebUI\\GoldenDaisyWebUI\\wwwroot\\img\\eyebrow.png",
+      "PackagePath": "staticwebassets\\img\\eyebrow.png"
+    },
+    {
+      "Id": "C:\\Users\\Win10\\source\\repos\\GoldenDaisyWebUI\\GoldenDaisyWebUI\\wwwroot\\img\\hair-removal.png",
+      "PackagePath": "staticwebassets\\img\\hair-removal.png"
+    },
+    {
       "Id": "C:\\Users\\Win10\\source\\repos\\GoldenDaisyWebUI\\GoldenDaisyWebUI\\wwwroot\\img\\heykel-tıraş.jpg",
       "PackagePath": "staticwebassets\\img\\heykel-tıraş.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Win10\\source\\repos\\GoldenDaisyWebUI\\GoldenDaisyWebUI\\wwwroot\\img\\img1.jpg",
+      "PackagePath": "staticwebassets\\img\\img1.jpg"
     },
     {
       "Id": "C:\\Users\\Win10\\source\\repos\\GoldenDaisyWebUI\\GoldenDaisyWebUI\\wwwroot\\img\\ipek-kirpik.jpg",
@@ -201,12 +225,20 @@
       "PackagePath": "staticwebassets\\img\\kalici-makyaj.jpg"
     },
     {
+      "Id": "C:\\Users\\Win10\\source\\repos\\GoldenDaisyWebUI\\GoldenDaisyWebUI\\wwwroot\\img\\l1.png",
+      "PackagePath": "staticwebassets\\img\\l1.png"
+    },
+    {
       "Id": "C:\\Users\\Win10\\source\\repos\\GoldenDaisyWebUI\\GoldenDaisyWebUI\\wwwroot\\img\\lazer-epilasyon.jpg",
       "PackagePath": "staticwebassets\\img\\lazer-epilasyon.jpg"
     },
     {
       "Id": "C:\\Users\\Win10\\source\\repos\\GoldenDaisyWebUI\\GoldenDaisyWebUI\\wwwroot\\img\\logo.PNG",
       "PackagePath": "staticwebassets\\img\\logo.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Win10\\source\\repos\\GoldenDaisyWebUI\\GoldenDaisyWebUI\\wwwroot\\img\\makeup-pouch.png",
+      "PackagePath": "staticwebassets\\img\\makeup-pouch.png"
     },
     {
       "Id": "C:\\Users\\Win10\\source\\repos\\GoldenDaisyWebUI\\GoldenDaisyWebUI\\wwwroot\\img\\medikal-cilt-bakimi.jpg",
@@ -219,6 +251,10 @@
     {
       "Id": "C:\\Users\\Win10\\source\\repos\\GoldenDaisyWebUI\\GoldenDaisyWebUI\\wwwroot\\img\\pro-makeup.jpeg",
       "PackagePath": "staticwebassets\\img\\pro-makeup.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Win10\\source\\repos\\GoldenDaisyWebUI\\GoldenDaisyWebUI\\wwwroot\\img\\slim-body.png",
+      "PackagePath": "staticwebassets\\img\\slim-body.png"
     },
     {
       "Id": "C:\\Users\\Win10\\source\\repos\\GoldenDaisyWebUI\\GoldenDaisyWebUI\\wwwroot\\js\\site.js",

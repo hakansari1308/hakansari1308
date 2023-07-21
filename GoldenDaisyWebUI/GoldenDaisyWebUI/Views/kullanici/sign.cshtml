@@ -1,32 +1,118 @@
-﻿@{
-    ViewData["Title"] = "Randuvu Sayfası.";
-}
-<h1>@ViewData["Title"]</h1>
+﻿
 <html>
-<style>
-    table {
-        background-color: lightblue;
-    }
+ 
+    <head>
 
-    th {
-        background-color: blue;
-        color: white;
-    }
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Coiffeur Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+    <!-- Custom Theme files -->
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/site.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/font-awesome.css" rel="stylesheet">  <!-- font-awesome icons -->
+    <link rel="stylesheet" href="css/lightbox.css"> <!-- lightbox css -->
+    <!-- //Custom Theme files -->
+    <!-- js -->
+    <script src="js/jquery-2.2.3.min.js"></script>
+    <!-- //js -->
+    <!-- web-fonts -->
+    <!-- //web-fonts -->
+    
+<!-- register.cshtml -->
+    <title>Kayıt Formu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f1f1;
+        }
 
-    td {
-        background-color: white;
-    }
-</style>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+        .container {
+            width: 400px;
+            margin: 0 auto;
+            margin-top: 100px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
 
+        .form-group {
+            margin-bottom: 20px;
+        }
 
-<p>Randevu için aşağıdaki formu doldurunuz.</p>
-<table>
-    <thead>
-    <tr>
-        <th>isim</th><th>soyisim</th>
-    </tr>
-    </thead>
-</table>
+            .form-group label {
+                display: block;
+                font-weight: bold;
+                margin-bottom: 5px;
+            }
 
+            .form-group input {
+                width: 100%;
+                padding: 8px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+
+                .form-group input[type="submit"] {
+                    background-color: #4CAF50;
+                    color: white;
+                    cursor: pointer;
+                }
+
+        .show-password-label {
+            display: flex;
+            align-items: center;
+            margin-right: 0px;
+        }
+
+            .show-password-label input[type="checkbox"] {
+                margin-right: 5px; 
+                width:auto;
+                height:auto;
+            }
+    </style>
+    <script>
+        function togglePasswordVisibility() {
+            var passwordInput = document.getElementById("password");
+            if (passwordInput.type === "password") {
+                passwordInput.type = "text";
+            } else {
+                passwordInput.type = "password";
+            }
+        }
+    </script>
+    </head>
+    <body>
+        <div class="container">
+            <h3>Kayıt Formu</h3>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="username">Kullanıcı Adı:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+            <div class="form-group">
+                <label for="name">Adı:</label>
+                <input type="text" id="name" name="name" required>
+            </div><div class="form-group">
+                <label for="secondname">Soyadı:</label>
+                <input type="text" id="secondname" name="secondname" required>
+            </div>
+                <div class="form-group">
+                    <label for="telno">Telefon Numarası:</label>
+                    <input type="tel" id="telno" name="telno" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Şifre:</label>
+                <div class="show-password-label">
+                    <input type="password" id="password" name="password" width="90" required>
+                    <input type="checkbox" onclick="togglePasswordVisibility()">
+                </div>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Kayıt Ol">
+                </div>
+            </form>
+        </div>
+</body>
 </html>

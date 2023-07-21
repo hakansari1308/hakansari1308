@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "GoldenDaisyWebUI/1.0.0": {
         "dependencies": {
+          "FontAwesome": "4.7.0",
+          "FontAwesomeIcons": "1.0.3",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.15",
           "SQLite": "3.13.0",
           "bootstrap": "5.3.0"
@@ -17,6 +19,15 @@
         }
       },
       "bootstrap/5.3.0": {},
+      "FontAwesome/4.7.0": {},
+      "FontAwesomeIcons/1.0.3": {
+        "runtime": {
+          "lib/FontAwesomeIcons.dll": {
+            "assemblyVersion": "1.0.3.0",
+            "fileVersion": "1.0.3.0"
+          }
+        }
+      },
       "Humanizer/2.14.1": {
         "dependencies": {
           "Humanizer.Core.af": "2.14.1",
@@ -2230,6 +2241,20 @@
       "sha512": "sha512-Glct0CeNsN5ETcAmV4IsIGa8VEvnWphT4Wb+IaF7/4KAMaZjxpr0eZ8Uf6H/gWKPcUB2p235/3alyhmYBbU6FQ==",
       "path": "bootstrap/5.3.0",
       "hashPath": "bootstrap.5.3.0.nupkg.sha512"
+    },
+    "FontAwesome/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-n4H/brfszElyoZ4kmGh8E75uqvLzLvFr3h2PFVdPH1LwUmWIpeqdaW2pcC4oZAhg7sESyObh0IZpAI8COCNeUg==",
+      "path": "fontawesome/4.7.0",
+      "hashPath": "fontawesome.4.7.0.nupkg.sha512"
+    },
+    "FontAwesomeIcons/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cC5+lp/c9FU2JehuoFTS3Jr2FvQIwtZDC33J49YSxhoQi1ZyvBFpMSaDVYate06vTSzj+boxNNlE0b2scWyI2Q==",
+      "path": "fontawesomeicons/1.0.3",
+      "hashPath": "fontawesomeicons.1.0.3.nupkg.sha512"
     },
     "Humanizer/2.14.1": {
       "type": "package",
