@@ -1,21 +1,80 @@
-﻿@{
-    ViewData["Title"] = "Randuvu Sayfası.";
-}
-<h1>@ViewData["Title"]</h1>
-<html>
+﻿<!DOCTYPE html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-
-
-<p>Randevu için aşağıdaki formu doldurunuz.</p>
-<form action="#" method="post">
-    <div class="form-style-agile">
-        <input placeholder="Adınız" name="name" type="text" required="">
-        <input placeholder="Telefon Numarası" name="Telno" type="text" required="">
-        <input placeholder="Adres" type="text" required="">
-        <input placeholder="Randevu Saati" type="text" required="">
-        <button class="book-btn btn">Randevu al</button>
-    </div>
-</form>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Randevu Formu</title>
+    <!-- Eklemek istediğiniz CSS dosyalarını burada belirtebilirsiniz -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f1f1;
+        }
+        .container {
+            width: 400px;
+            margin: 0 auto;
+            margin-top: 100px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .form-group input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
 </head>
+<body>
+    <div class="container">
+    <h1>Randevu Formu</h1>
+        <!-- RandevuForm.cshtml -->
+        @model RandevuModel
+
+        <form asp-action="RandevuFormSubmit" method="post">
+            <div class="form-group">
+                <label asp-for="Adı">Adınız:</label>
+                <input asp-for="Adı" class="form-control" />
+                <span asp-validation-for="Adı" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Telno">Telefon Numarası:</label>
+                <input asp-for="Telno" type="tel" class="form-control" />
+                <span asp-validation-for="Telno" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Randevudate">Tarih:</label>
+                <input asp-for="Randevudate" type="date" class="form-control" />
+                <span asp-validation-for="Randevudate" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Randevusaat">Saat:</label>
+                <input asp-for="Randevusaat" type="time" class="form-control" />
+                <span asp-validation-for="Randevusaat" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Randevu Al</button>
+        </form>
+
+    </div>
+    
+
+    <!-- Eklemek istediğiniz JavaScript dosyalarını burada belirtebilirsiniz -->
+</body>
 </html>

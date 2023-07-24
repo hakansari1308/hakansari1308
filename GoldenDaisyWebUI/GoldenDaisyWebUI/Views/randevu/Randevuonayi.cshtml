@@ -1,0 +1,27 @@
+﻿@{
+    // ViewData içinden onay mesajını alın
+    var onayMesaji = ViewData["OnayMesaji"] as string;
+}
+
+@if (!string.IsNullOrEmpty(onayMesaji))
+{
+    <div class="alert alert-success">
+        @onayMesaji
+    </div>
+}
+<h1>Bizi Seçtiğiniz İçin Teşekkürler</h1>
+<h1>Ana Sayfaya Yönlendiriliyorsunuz</h1>
+<script>
+    var seconds = 3; // Yönlendirme süresi (saniye)
+    var countdown = setInterval(function () {
+        document.getElementById('bekleyin').innerHTML = 'Lütfen Bekleyin' + '.'.repeat(seconds);
+        seconds--;
+        if (seconds < 0) {
+            clearInterval(countdown);
+            window.location.href = '@Url.Action("Index", "Home")'; // HomeController'ın Index action'ı
+        }
+    }, 1000);
+</script>
+
+<!-- Bekleyin yazısını göster -->
+<div id="bekleyin">Lütfen bekleyin...</div>

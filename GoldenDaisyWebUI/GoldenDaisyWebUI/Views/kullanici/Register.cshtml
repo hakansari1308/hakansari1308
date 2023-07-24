@@ -1,0 +1,87 @@
+﻿@* _ViewImports.cshtml dosyasında kullanılan tag helper'ları kullanmak için bunları ekleyin. *@
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "Credit Login / Register Form a Responsive Widget Template :: w3layouts";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewData["Title"]</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Credit Login / Register Form Responsive Widget,Login form widgets, Sign up Web forms , Login signup Responsive web form,Flat Pricing table,Flat Drop downs,Registration Forms,News letter Forms,Elements" />
+
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+    <link href="//fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+</head>
+<body>
+    @model KullaniciModel
+    <div id="small-dialog1" class="mfp-hide">
+        <div class="contact-form1">
+            <div class="contact-w3-agileits">
+                <h3>Kayıt Ol</h3>
+                <form asp-action="Register" method="post">
+                    <div class="form-group">
+                        <label asp-for="username">Kullanıcı Adı:</label>
+                        <input asp-for="username" class="form-control" />
+                        <span asp-validation-for="username" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Adı">Adınız:</label>
+                        <input asp-for="Adı" type="text" class="form-control" />
+                        <span asp-validation-for="Adı" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Soyadı">Soyadı:</label>
+                        <input asp-for="Soyadı" type="text" class="form-control" />
+                        <span asp-validation-for="Soyadı" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Telno">Telefon Numarası:</label>
+                        <input asp-for="Telno" type="text" class="form-control" />
+                        <span asp-validation-for="Telno" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="sifre">Şifre:</label>
+                        <input asp-for="sifre" type="password" class="form-control" />
+                        <span asp-validation-for="sifre" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="sifre2">Şifreyi Doğrula:</label>
+                        <input asp-for="sifre2" type="password" class="form-control" />
+                        <span asp-validation-for="sifre2" class="text-danger"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Kayıt Ol</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            // Modal açma işlemi için gerekli kod
+            $('.w3_play_icon1').magnificPopup({
+                type: 'inline',
+                fixedContentPos: false,
+                fixedBgPos: true,
+                overflowY: 'auto',
+                closeBtnInside: true,
+                preloader: false,
+                midClick: true,
+                removalDelay: 300,
+                mainClass: 'my-mfp-zoom-in'
+            });
+        });
+    </script>
+
+</body>
+</html>

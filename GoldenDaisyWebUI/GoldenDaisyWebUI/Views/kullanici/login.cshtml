@@ -65,24 +65,32 @@
     </script>
 </head>
 <body>
-    <div class="container">
-        <h2>Giriş Formu</h2>
-        <form action="#" method="post">
-            <div class="form-group">
-                <label for="username">Kullanıcı Adı:</label>
-                <input type="text" id="username" name="username" required>
-            </div>
-            <div class="form-group">
-                <label for="password">Şifre:</label>
-                <div class="show-password-label">
-                    <input type="password" id="password" name="password" required>
-                    <input type="checkbox" onclick="togglePasswordVisibility()"> Şifreyi Göster
+    <h1>Credit Login / Register Form</h1>
+    <div class="main-agileits">
+        @model KullaniciModel
+        <div class="form-w3-agile">
+            <h2>Credit login form</h2>
+            <form asp-action="Profil" method="post">
+                <div class="form-sub-w3">
+                    <input type="text" name="Username" placeholder="Customer number or username " required="" />
+                    <div class="icon-w3">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                    </div>
                 </div>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Giriş Yap">
-            </div>
-        </form>
+                <div class="form-sub-w3">
+                    <input type="password" name="Password" placeholder="Password" required="" />
+                    <div class="icon-w3">
+                        <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <p class="p-bottom-w3ls">Yeni Kullanıcı mızınız?<a class="w3_play_icon1" href="Register"> Şimdi Kayıt Ol</a></p>
+
+
+                <div class="submit-w3l">
+                    <input type="submit" value="Griş Yap">
+                </div>
+            </form>
+        </div>
     </div>
 </body>
 </html>

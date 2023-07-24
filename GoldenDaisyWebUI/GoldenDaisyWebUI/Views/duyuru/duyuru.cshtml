@@ -1,0 +1,22 @@
+﻿@model List<DuyuruModel>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duyurular</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Duyurular</h1>
+
+        <ul>
+            @foreach (var duyuru in Model)
+            {
+                <li>@duyuru.duyuru </li>
+            }
+        </ul>
+    </div>
+</body>
+</html>

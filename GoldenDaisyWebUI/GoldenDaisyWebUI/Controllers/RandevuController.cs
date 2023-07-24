@@ -1,57 +1,60 @@
-﻿using GoldenDaisyWebUI.Models;
-using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Data.Sqlite; // SQLite bağlantısı için bu using eklendi
+using GoldenDaisyWebUI.Models;
 
 namespace GoldenDaisyWebUI.Controllers
 {
     public class RandevuController : Controller
     {
-        private readonly ILogger<RandevuController> logger2;
+        private readonly IConfiguration _configuration;
 
-        public RandevuController(ILogger<RandevuController> logger)
+        public RandevuController(IConfiguration configuration)
         {
-            logger2 = logger;
+            _configuration = configuration;
         }
 
         public IActionResult Index()
         {
             return View();
         }
+       public IActionResult Randevu()
+        {
+            return View();
+        }
+    
+        [HttpPost]
+        public IActionResult RandevuFormSubmit(RandevuModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                string connectionString = "Data Source=gdbeauty.db"; // Veritabanı bağlantı dizesi
 
-        public IActionResult Hakkimizda()
-        {
-            return View();
+                using (SqliteConnection connection = new SqliteConnection(connectionString))
+                {
+                    connection.Open();
+
+                    using (SqliteCommand command = new SqliteCommand("INSERT INTO randevu (Adı, Telno, Randevudate, Randevusaat) VALUES (@Adı, @Telno, @Randevudate, @Randevusaat)", connection))
+                    {
+                        command.Parameters.AddWithValue("@Adı", model.Adı);
+                        command.Parameters.AddWithValue("@Telno", model.Telno);
+                        command.Parameters.AddWithValue("@Randevudate", model.Randevudate);
+                        command.Parameters.AddWithValue("@Randevusaat", model.Randevusaat);
+
+                        command.ExecuteNonQuery();
+                    }
+
+                    connection.Close();
+                }
+
+               
+            }
+            ViewData["OnayMesaji"] = "Randevu onaylandı.";
+
+            // Başarılı bir şekilde ekledikten sonra, teşekkür sayfasına yönlendirilir
+            return View("Randevuonayi");
         }
-        public IActionResult Randevu()
-        {
-            return View();
-        }
-        public IActionResult Iletisim()
-        {
-            return View();
-        }
-        public IActionResult adminlist()
-        {
-            return View();
-        }
-        public IActionResult profil()
-        {
-            return View();
-        }
-        public IActionResult login() {
-        return View();
-        }
-        public IActionResult sign() {
-            return View();
-        }
-        public IActionResult duyuru()
-        {
-            return View();
-        }
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
+        
+        
     }
 }
